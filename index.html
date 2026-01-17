@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oumar Allawan - Data Scientist en Santé</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">Oumar Allawan</div>
+                <ul class="nav-links">
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Data Science pour la Santé</h1>
+                <p>Je transforme les données médicales en solutions concrètes</p>
+                <a href="#projects" class="btn">Voir mes projets</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="profile-img">
+                    <img src="img/profile.jpg" alt="Oumar Allawan">
+                </div>
+                <div class="about-text">
+                    <p>Je suis un passionné de Data Science avec un intérêt particulier pour ses applications dans le domaine de la santé. Actuellement en recherche d'un stage en Data Science, je me spécialise dans l'analyse de données médicales, l'apprentissage automatique et la visualisation de données.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> 07 80 46 14 86</p>
+                        <p><i class="fas fa-envelope"></i> oumarallawan7@gmail.com</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Compétences</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Deep Learning</span>
+                            <span>Analyse de Données</span>
+                            <span>Visualisation</span>
+                            <span>Pandas</span>
+                            <span>Scikit-learn</span>
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="img/admet.jpg" alt="Projet ADMET">
+                    </div>
+                    <div class="project-info">
+                        <h3>Prédiction des Propriétés ADMET</h3>
+                        <p>Développement d'un modèle de prédiction des propriétés ADMET pour l'optimisation de candidats médicamenteux.</p>
+                        <div class="project-links">
+                            <a href="#project1-details" class="btn btn-outline">En savoir plus</a>
+                            <a href="https://github.com/oumar1958/Prediction-de-proprietes-ADMET-pour-la-decouverte-de-medicaments" target="_blank" class="btn">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="img/medical-segmentation.jpg" alt="Segmentation d'Images Médicales">
+                    </div>
+                    <div class="project-info">
+                        <h3>Segmentation d'Images Médicales</h3>
+                        <p>Application de few-shot learning pour la segmentation d'images radiologiques et oncologiques.</p>
+                        <div class="project-links">
+                            <a href="#project2-details" class="btn btn-outline">En savoir plus</a>
+                            <a href="https://github.com/oumar1958/Apprentissage-de-l-anatomie-radiologique-et-oncologique-grace-au-few-shots-learning-par-Raidium" target="_blank" class="btn">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project1-details" class="project-details">
+        <div class="container">
+            <h2>Prédiction des Propriétés ADMET</h2>
+            <div class="project-content">
+                <div class="project-description">
+                    <h3>Contexte</h3>
+                    <p>Ce projet vise à développer un modèle de classification multi-étiquettes supervisée capable de prédire trois propriétés ADMET (Absorption, Distribution, Métabolisme, Excrétion, Toxicité) pour diverses molécules, une étape cruciale dans la découverte de médicaments.</p>
+                    
+                    <h3>Objectifs</h3>
+                    <ul>
+                        <li>Prédire les propriétés ADMET de molécules candidates</li>
+                        <li>Identifier rapidement des candidats-médicaments avec des profils ADMET favorables</li>
+                        <li>Réduire le coût et le temps des évaluations expérimentales</li>
+                    </ul>
+
+                    <h3>Technologies utilisées</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">RDKit</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+
+                    <h3>Résultats</h3>
+                    <p>Développement d'un modèle capable de prédire avec précision les propriétés ADMET à partir des structures moléculaires, permettant d'identifier rapidement les candidats les plus prometteurs pour des tests ultérieurs.</p>
+                </div>
+                <div class="project-visualization">
+                    <div class="chart-container">
+                        <h4>Performance du Modèle</h4>
+                        <canvas id="admetChart"></canvas>
+                    </div>
+                    <div class="molecule-visualization">
+                        <h4>Exemple de Molécule</h4>
+                        <div id="molecule-viewer">
+                            <img src="img/molecule-placeholder.png" alt="Visualisation de molécule" style="max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#projects" class="btn back-btn">Retour aux projets</a>
+        </div>
+    </section>
+
+    <section id="project2-details" class="project-details">
+        <div class="container">
+            <h2>Segmentation d'Images Médicales</h2>
+            <div class="project-content">
+                <div class="project-description">
+                    <h3>Contexte</h3>
+                    <p>Développement d'une API de segmentation d'images médicales utilisant des techniques de few-shot learning pour faciliter l'apprentissage avec un nombre limité d'images annotées.</p>
+                    
+                    <h3>Objectifs</h3>
+                    <ul>
+                        <li>Créer un outil de segmentation d'images médicales précis</li>
+                        <li>Implémenter des techniques de few-shot learning pour réduire le besoin en données annotées</li>
+                        <li>Développer une interface utilisateur intuitive pour les professionnels de santé</li>
+                    </ul>
+
+                    <h3>Technologies utilisées</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+
+                    <h3>Fonctionnalités</h3>
+                    <ul>
+                        <li>Téléversement d'images médicales</li>
+                        <li>Prédiction de segmentation en temps réel</li>
+                        <li>Interface utilisateur intuitive</li>
+                        <li>Documentation automatique avec Swagger UI</li>
+                    </ul>
+                </div>
+                <div class="project-visualization">
+                    <div class="segmentation-example">
+                        <h4>Exemple de Segmentation</h4>
+                        <div class="segmentation-comparison">
+                            <div class="segmentation-img">
+                                <p>Image originale</p>
+                                <img src="img/medical-scan.jpg" alt="Scan médical original">
+                            </div>
+                            <div class="segmentation-img">
+                                <p>Résultat de la segmentation</p>
+                                <img src="img/segmentation-result.jpg" alt="Résultat de la segmentation">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metrics">
+                        <h4>Métriques de Performance</h4>
+                        <canvas id="segmentationChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <a href="#projects" class="btn back-btn">Retour aux projets</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Disponible pour des opportunités</h3>
+                    <p>Je suis actuellement à la recherche d'un stage en Data Science, particulièrement dans le domaine de la santé. N'hésitez pas à me contacter pour toute opportunité ou collaboration.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> 07 80 46 14 86</p>
+                        <p><i class="fas fa-envelope"></i> oumarallawan7@gmail.com</p>
+                        <p><i class="fab fa-github"></i> <a href="https://github.com/oumar1958" target="_blank">github.com/oumar1958</a></p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oumar Allawan. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://github.com/oumar1958" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:oumarallawan7@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
